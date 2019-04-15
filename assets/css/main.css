@@ -1,0 +1,34 @@
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-bold{
+    font-weight: 600;
+}
+.text-justify{
+    text-align: justify;
+}
+.text-white{
+    color: #fff !important;
+}
+.text-drak{
+    color: #333333 !important;
+}
+/* float */
+.fl_left{
+    float: left;
+}
+.fl_right
+{
+    float: right;
+}
+
+/* parallax Scrolling effects */
+#parallax-1{
+    background: url(img/bg-1.jpg) fixed no-repeat;
+}
