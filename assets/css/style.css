@@ -1,3 +1,5 @@
+
+
 *{
   margin:0px;
   padding: 0px;
@@ -5,6 +7,7 @@
 }
 body{
   font-family: 'Open Sans', sans-serif;
+  background: rgb(218, 231, 37);
 }
 .clr{
   clear: both;
@@ -222,7 +225,12 @@ body{
   margin-top: 1px;
 }
 .footer-form-submit-style:active{
-  background: #f00;
+  background: rgb(218, 231, 37);
+}
+.footer-form-submit-style:hover{
+  background-color: #3498db;
+  color: rgb(218, 231, 37);
+  border-radius: 100%; 
 }
 .footer-bottom{
   width: 100%;
