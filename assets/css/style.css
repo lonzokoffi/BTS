@@ -14,7 +14,7 @@ body{
   height: auto;
   min-height: 250px;
   margin:auto;
-  background-image: url(../../img/etud.jpg);
+  background-image: url(../../img/img-6.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -241,7 +241,7 @@ body{
 }
 .top-img{
   position: absolute;
-  background: url(../../img/);
+  background: url(../../img/top-divder.png);
   top: -10px;
   left: 0px;
   width: 100%;
