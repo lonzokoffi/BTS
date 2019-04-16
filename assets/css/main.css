@@ -30,5 +30,95 @@
 
 /* parallax Scrolling effects */
 #parallax-1{
-    background: url(img/bg-1.jpg) fixed no-repeat;
+    background: url(../../img/bg-1.jpg) fixed no-repeat;
+    min-height: 720px;
+    background-position: center; 
+}
+#parallax-1 .overlay{
+    min-height: 720px;
+}
+.overlay{
+    position: relative;
+    z-index: 1;
+    background-color: reba(0, 0, 0, 0.5) !important;
+}
+
+
+/* Navigation bar
+----------------------------------------*/
+#logo img{
+    height: 30px;
+}
+nav ul, nav ol{
+    margin: 0;
+    padding: 0;
+    list-style: none:
+}
+
+#main-navbar {
+    line-height: normal;
+}
+#main-navbar li{
+    display: inline-block;
+    position: relative;
+    margin: 0 15px 0 0;
+    padding: 0:
+}
+#main-navbar li:last-child{
+    margin-right: 0;
+}
+
+#main-navbar li a{
+    display: block;
+    padding: 25px 0;
+    color: inherit;
+}
+#main-navbar li li {
+    width: 100%;
+    margin: 0;
+}
+#main-navbar li li:hover > a{
+    color: #fff;
+    background-color: #57ADC4;
+}
+#main-navbar .drop{
+    padding-left: 15px;
+}
+#main-navbar ul ul{
+    z-index: 9999;
+    position: absolute;
+    width: 180px;
+    text-transform: none;
+    visibility: hidden;
+    opacity: 0;
+}
+#main-navbar li li a, #main-navbar li li .drop{
+    display: block;
+    margin 0;
+    padding: 10px 15 px;
+}
+#main-navbar ul li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+}
+#main-navbar li li .drop::after{
+    top: 15px;
+    left: 5px;
+}
+#main-navbar .drop::after, #main-navbar li li .drop::after{
+    content: "\f0d7";
+    position: absolute;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    line-height: 10px;
+}
+#main-navbar .active a, #main-navbar a:hover, #main-navbar li:hover > a{
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: inherit;
+}
+#main-navbar .drop::after{
+    top: 30px;
+    left: 5px;
 }
