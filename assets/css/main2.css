@@ -16,3 +16,6 @@ html, body{
     background-color:  #e4d729;
     border-color: inherit;
 }
+#logo img{
+    height: 30px;
+}
