@@ -278,7 +278,7 @@ h1{
   margin-bottom: 15px;
 }
 
-ul > li{
+.ic_li{
   display: inline-block;
   text-align: center;
 }
